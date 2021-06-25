@@ -1,0 +1,322 @@
+body{
+    font-family: sans-serif;
+}
+/* img{
+    object-fit: cover;
+} */
+.container23{
+    margin-top: 100px;
+}
+.col6{
+   padding: 20px 15px;
+   box-sizing: border-box;
+}
+.OurGoal{
+    font-display: 2;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.edicationp{
+    border-left: 2px solid #0EB582;
+    padding-left: 20px;
+}
+.button{
+    margin-top: 25px;
+    padding: 16px 26px !important;
+    border-radius: 40px !important;
+    font-weight: bolder !important;
+    transition: all 0.5s !important;
+    border: 2px solid #0EB582 !important;
+    background-color: #0EB582 !important;
+}
+
+.BsPlusCircle{
+    font-weight: bold !important;
+}
+.button:hover{
+    background-color: transparent !important;
+    color: #0EB582 !important;
+}
+
+.row-2{
+    margin-top: 100px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.fluid{
+    width: 100%;
+    background-color: #F7F9FB;
+}
+.row-2 .card{
+    background-color: transparent !important;
+    border: none;
+}
+.row-22 .card{
+    background-color: transparent !important;
+    border: none;
+}
+.card2{
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
+.card1{
+    border-radius: 0 !important;
+    border-right: 1px solid grey !important;
+}
+.title5{
+    color: gray;
+}
+.fonts{
+    font-weight: 700 !important;
+    color: gray;
+}
+.title2{
+    font-weight: bold;
+}
+.row-3{
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
+.row-3 .col-lg-4{
+    margin-top: 40px;
+}
+.row-3 .col-lg-4 .card{
+    padding: 25px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #F9FBFC !important;
+    transition: 0.4s linear !important;
+}
+.row-3 .col-lg-4 .card:hover{
+    background-color: white !important;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+.row-3 .col-lg-4 .card img{
+    width: 80px;
+    height: 100px;
+    margin-left: 20px;
+}
+.row-3 .col-lg-4 .card .card-title{
+    font-size: 25px;
+}
+.row-3 .col-lg-4 .card .card-text{
+    font-weight: 500;
+    color: grey;
+}
+.row-4 img{
+    border-radius: 10px;
+}
+.row-4 .col-lg-12{
+    position: relative;
+}
+.row-4 .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #0EB582;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+    cursor: pointer;
+    animation-name: animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+    0%{
+        transform: scale(1.0)
+    }
+    25%{
+        transform: scale(1.05);
+        background-color: #273C66;
+        /* background-color: blue !important; */
+    }
+    50%{
+        transform: scale(1.15) !important;
+        background-color: red;
+    }
+    75%{
+        transform: scale(1.08);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+.row-4 .card-body .icons{
+    font-size: 55px;
+    color: white;
+}
+/* .modal-content{
+    height: 500px !important;
+    background-color: transparent !important;
+    border: none !important;
+} */
+.modal-xato{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.modal-xato .modal-header, .modal-xato .modal-body{
+    border: none !important;
+    background-color: transparent !important;
+}
+.row-5 p {
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #555555;
+    text-align: center;
+}
+.row-6 .col-lg-4 img{
+    width: 80%;
+}
+.row-6 .col-lg-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkicons{
+    float: right !important;
+    border: 2px solid #E1E1E1;
+    border-radius: 50%;
+    font-size: 30px !important;
+}
+.myfooter{
+    padding: 20px 0 40px 0;
+}
+.myfooter .col-lg-7 .card {
+    border: 0 !important;
+}
+.myfooter .col-lg-7 .card .card-body{
+    background-color: transparent;
+}
+.myfooter .col-lg-7 h3{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px;
+    margin-bottom: 0;
+}
+.myStyle{
+    color: white !important;
+    background-color: #0EB582;
+    border-radius: 15px;
+}
+.itemGroup{
+    padding: 20px;
+    box-sizing: border-box;
+    transition-duration: 2s;
+    transition: all 2s ease-in;
+}
+
+.myStyle .checkicons{
+    background-color: #273C66;
+}
+
+.close1{
+    display: none;
+}
+.btn-link{
+    padding: 0 !important;
+    width: 100% !important;
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.btn-link:hover{
+    text-decoration: none !important;
+    color: black;
+    font-weight: bold;
+}
+.accordion .card-header{
+    /* background-color: transparent; */
+    border-top: 1px solid gray;
+    padding: 0 !important;
+}
+.btn-link:focus{
+    outline: 0 none !important;
+}
+.pages-problem{
+    padding: 20px !important;
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 480px) {
+    .myfooter .col-lg-7 h3{
+        font-size: 14px;
+    }
+    .mytop img {
+        width: 100%;
+    }
+    .card1{
+        width: 100%;
+    }
+    .card2{
+        padding: 10px 10px !important;
+        box-sizing: border-box;
+    }
+    .title2{
+        font-size: 22px !important;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .title5{
+        font-size: 18px;
+    }
+    .row-5 .col-lg-10 p{
+        font-size: 18px;
+    }
+    .row-6 .col-lg-4{
+        margin: 30px 0;
+    }
+    
+  }
+@media screen and (min-width: 480px) {
+    .myfooter .col-lg-7 h3{
+        font-size: 18px;
+    }
+    .card1{
+        width: 100%;
+    }
+    .card2{
+        padding: 10px 0px !important;
+        box-sizing: border-box;
+    }
+    .row-2{
+        margin-top: 0 !important;
+    }
+    .pages-problem{
+        padding: 20px !important;
+        margin: 0 !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .myfooter .col-lg-7 h3{
+        font-size: 20px;
+    }
+   
+    .col-lg-5{
+        margin-top: 30px;
+    }
+    .pages-problem{
+        padding: 30px !important;
+        margin: 0 !important;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .myfooter .col-lg-7 h3{
+        font-size: 22px;
+    }
+    .pages-problem{
+        padding: 40px !important;
+        margin: 0 !important;
+    }
+    
+  }
+

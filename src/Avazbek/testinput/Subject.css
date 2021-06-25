@@ -1,0 +1,94 @@
+.subject-parent{
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/7b/d0/f2/7bd0f2ea64b6508434c086907d26dbaa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 10px;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    font-size: 20px;
+}
+.subject-div{
+    width: 40%;
+    padding: 30px 25px 25px;
+    background-color: white;
+    border-radius: 7px;
+}
+.subject-header{
+    text-align: center;
+}
+.subject-group{
+    margin-bottom: 0.3rem !important;
+}
+.subject-group2{
+    margin-bottom: 30px !important;
+}
+.subject-input-name{
+    margin-bottom: 0 !important;
+    font-weight: bold;
+    font-size: 14px !important;
+}
+.subject-option{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.subject-hover:nth-child(odd){
+    background-color: #F9F9F9;
+    transition: 0.3s;
+}
+.subject-hover:hover{
+    background-color: #11B3A6;
+}
+.sub-btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.subject-btn{
+    background-color: #11B3A6;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none !important;
+    margin-top: 15px;
+    transition: 0.15s;
+    outline: blue;
+}
+.subject-btn:hover{
+    background-color: #32beb5 !important;
+    transform: scale(1.2);
+}
+.subject-hr{
+    padding-bottom: 10px;
+}
+.subject-tbody tr td{
+    padding: 0.4rem 0.75rem 0.5rem !important;
+}
+.subject-tbody tr th{
+    padding: 0.4rem 0.75rem 0.5rem !important;
+}
+.subject-hover2{
+    color: black;
+}
+.subject-hover2:hover{
+    color: white !important;
+}
+@media only screen and (max-width: 1200px) {
+    .subject-div{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .subject-div{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .subject-div{
+        width: 85%;
+    }
+}

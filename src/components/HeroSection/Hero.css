@@ -1,0 +1,106 @@
+.hero{
+    min-height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f9fb;
+    background-image: url('https://demo.themewinter.com/wp/turitors/wp-content/uploads/2019/12/banner_bg.png');
+}
+.hero-animation{
+    height: 60vh;
+    width: 50%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+.hero-text h2{
+    font-size: 64px;
+    text-align: center;
+    color: #333;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero-text p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #555;
+    margin: 30px 0;
+    width: 70%;
+}
+.btn-quote, .btn-trial{
+    padding: 10px 45px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px 20px;
+    color: white;
+    font-weight: 500;
+    transition: 0.1s;
+    font-size: 18px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn-quote{
+    background-color: #0eb582;
+    border: 2px solid #2ba7bd;
+    /* flex:1 1 200px; */
+}
+.btn-trial{
+    background-color: #f7f9fb;
+    color: #0eb582;
+    border: 2px solid #0eb582;
+    font-weight: 500;
+    /* flex: 1 1 150px; */
+}
+.btn-quote:hover{
+    background-color: #002c5c;
+}
+.btn-trial:hover{
+    background-color: #0eb582;
+    color: white;
+}
+
+@media screen and (max-width:993px) {
+    .hero-text h2{
+        font-size: 56px;
+    }
+    .hero-text p{
+        width: 80%;
+    }
+}
+@media screen and (max-width:768px) {
+    .hero-text h2{
+        font-size: 48px;
+    }
+    .hero-text p{
+        width: 90%;
+    }
+    .hero-text{
+        margin: 10px;
+    }
+    .hero-animation{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width:620px) {
+    .hero-text h2{
+        font-size: 40px;
+    }
+    .hero-text p{
+        width: 90%;
+    }
+    .hero-text{
+        margin: 10px;
+    }
+}

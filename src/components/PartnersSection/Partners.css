@@ -1,0 +1,33 @@
+.partners{
+    padding: 30px 0;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.partners-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.partners-head h2{
+    font-size: 36px;
+}
+.partners-head h4{
+    font-size: 18px;
+    color: grey;
+}
+.partners-head p{
+    width: 70%;
+    margin: 0 auto;
+    color: grey;
+}
+.partners-image{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+}
+.partners-slide{
+    overflow: hidden;
+}

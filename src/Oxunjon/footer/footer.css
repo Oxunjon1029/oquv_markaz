@@ -1,0 +1,296 @@
+html{
+  scroll-behavior: smooth;
+}
+footer{
+  position: relative;
+  /* margin-top: 160px; */
+}
+.oxunjon-footer{
+  position: relative;
+  /* margin-top: 100px; */
+}
+.background-image{
+    background-image: url("https://demo.themewinter.com/wp/turitors/wp-content/uploads/2019/11/newsletter_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+    border: #0EB582 1px solid;
+    position: relative;
+    top: -100px;
+    z-index: 11110999;
+    background-color: #0EB582;
+    padding:4rem;
+  }
+  .lineHeight{
+    line-height: 1.2rem;
+  }
+  .br{
+    border-radius: 2rem;
+    border: 1px white solid;
+    background-color: white;
+    padding: 1rem;
+    height: 4.5rem;
+    width: 10rem !important;
+    display: flex;
+    flex-direction: row;
+   margin:1.5rem 0;
+  }
+  .borderRadius{
+    border-radius: 1.8rem;
+    border: 1px indigo solid;
+    background-color: indigo;
+    padding:.8rem 0.1rem;
+    width: 195px;
+    height: 3.2rem;
+    align-items: center;
+    position: absolute;
+    right:5px;
+    bottom: 10px;
+    align-items: center;
+  }
+  .p{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      /* padding-left: 3rem; */
+  }
+  .borderRadius:hover{
+      background-color: green;
+      transition: all .6s ;
+      border: 1px green solid;
+      cursor: pointer;
+  }
+  .ul-li ul {
+list-style: none;
+  }
+  .ul-li{
+    margin-left: 2rem;
+  }
+  .ul-li ul li{
+    letter-spacing: -.16px;
+  }
+  .ul-li ul li a{
+    text-decoration: none;
+    color: #a5b7d9;
+    font-size: 16px;
+    line-height: 36px;
+  }
+  .ul-li ul li a:hover{
+    color: green;
+    transition: .7s;
+  }
+  .ul-li ul li ::before{
+    content: "";
+    position: absolute;
+    left: 0;
+   margin-top: 0.9rem;
+   margin-left: 1.8rem;
+    border: 1px #a5b7d9 solid;
+    width: 5px;
+    height: 0;
+  }
+  #fit h5{
+    margin-bottom: 20px !important;
+    font-weight: 700;
+  }
+  #Row-asosiy::after{
+    content: "";
+    width: 100%;
+    height: 0;
+    border: 0.002px #a5b7d9 solid;
+    position: relative;
+    top: 0;
+    margin: 3rem 0;
+  }
+  .iconca{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   
+  }
+  .Facebook{
+    border-radius: 50%;
+    border: 1px #a5b7d9 solid;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.4rem 0.67rem;
+    color: white;
+    margin-right: 5px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .Facebook:hover{
+    background-color:mediumblue;
+    border-color: mediumblue;
+    transition: .4s;
+  }
+  .Twitter{
+    border-radius: 50%;
+    border: 1px #a5b7d9 solid;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.4rem 0.69rem;
+    margin-right: 5px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .Twitter:hover{
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    transition: .4s;
+  }
+  .Pinterest{
+    border-radius: 50%;
+    border: 1px #a5b7d9 solid;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.36rem 0.66rem;
+    color: white;
+    margin-right: 5px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .Pinterest:hover{
+    background-color: red;
+    border-color: red;
+    transition: .4s;
+  }
+  .Instagram{
+    border-radius: 50%;
+    border: 1px #a5b7d9 solid;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.36rem 0.69rem;
+    margin-right: 0;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .Instagram:hover{
+    background-color: orangered;
+    border-color: orangered;
+    transition: .4s;
+  }
+  #colorWhite  li a{
+    text-decoration: none;
+    color: white;
+  }
+  #colorWhite  li a:hover{
+    color: green;
+    transition: .3s;
+  }
+  .lastOne{
+    align-items: center;
+  }
+  .lastIcon{
+    color: white;
+    position: fixed;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    right: 3rem;
+    bottom:6rem;
+    cursor: pointer;
+    background-color: #0EB582;
+    border-color: #0EB582;
+    font-size: 1.2rem;
+    align-items: center;
+  }
+  #footerImg{
+    margin-bottom: 1rem;
+    align-items: center;
+
+  }
+  
+ 
+    @media only screen and (max-width:768px){
+      html{
+        overflow-x:hidden ;
+      }
+      footer{
+        margin-top: 30px;
+      }
+        .borderRadius{
+            position: relative;
+            top: 2.8rem;
+        }
+        #footerImg img{
+          width: 50%;
+
+        }
+        #footerImg{
+          display: flex;
+          justify-content: center;
+        }
+        .lastOne div{
+          align-items: center;
+        }
+        /* footer{
+          margin-top: 15rem !important;
+        } */
+        .background-image{
+          width: 100% !important;
+          height: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:  50px;
+
+        }
+       
+        .lineHeight{
+          width: 100%;
+        }
+        .lastIcon{
+          right: 1rem;
+        }
+      #Justify{
+        display: flex;
+        justify-content: center;
+      }
+      .input_button input{
+      
+        margin-top: 5px;
+       }
+       .fontSize{
+        font-size: 1.75rem !important;
+       
+      }
+     
+      
+    }
+    @media only screen and (min-width:768px) and (max-width:1024px){
+      html{
+        overflow-x: hidden;
+      }
+        .borderRadius{
+            position: relative;
+            right: -5px;
+           
+        }
+        footer{
+          margin-top: 15rem !important;
+        }
+        .input_button{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 6rem;
+        }
+      .input_button input{
+      
+       margin-bottom: 20px;
+      }
+      #footerImg img{
+        width: 100%;
+      }
+      #Justify h6{
+        font-size: 0.7rem !important;
+      }
+    
+    }

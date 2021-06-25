@@ -1,0 +1,27 @@
+.mySlick img{
+    width: 100%;
+    height: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center !important;
+    border-radius: 50%;
+}
+.slick-prev{
+    background-color: #0EB582 !important;
+    border-radius: 50%;
+}
+.slick-next{
+    border-radius: 50%;
+    background-color: #0EB582 !important;
+}
+
+.mySlick .slick-slide h3,p{
+    margin: 0;
+    /* text-align: center; */
+}
+.mySlick .slick-slide{
+    text-align: center;
+}
+
+
+

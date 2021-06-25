@@ -1,0 +1,72 @@
+.contact-header{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://demo.themewinter.com/wp/turitors/wp-content/uploads/2020/01/banner_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner-title{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: "Roboto";
+    padding-top: 15%;
+}
+.banner-ul{
+    overflow: hidden;
+    list-style-type: none;
+    /*margin-left: 40%;*/
+}
+.banner-ul li{
+    float: left;
+    font-size: 20px;
+    font-family: Roboto;
+    margin-right: 10px;
+
+}
+.container{
+    margin: 0 auto;
+}
+.get-in{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -.42px;
+}
+.first-card{
+    border: 0.5px dashed #E8E8E8;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #F5F5F5;
+}
+.card-text-1{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    border: 6px solid #EBF1F7;
+}
+.send-button{
+    background-color: #273C66;
+    width: 40%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    font-family: Roboto;
+}
+.send-button:hover{
+    color: white;
+    background-color: #0EB582;
+    transition-duration: 1s;
+}
+.contact-form-control{
+    height: 50px;
+    margin-bottom: 25px;
+    color: #282c34;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+.form-title-control{
+    color: #333;
+    font-size: 24px;
+    line-height: 26px;
+}

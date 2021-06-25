@@ -1,0 +1,202 @@
+.blog{
+    overflow-x: hidden;
+}
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+.green-link{
+    color: #0eb582;
+    
+}
+.post-footer{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.black-link{
+    color: #333;
+}
+.ikkinchi-xato a:link{
+    text-decoration: none;
+    background-color: transparent;
+}
+.ikkinchi-xato a:hover{
+    color:#0eb582;
+}
+.container-fluid{
+    padding: 0;
+}
+.banner-area{
+    background-image: url("https://demo.themewinter.com/wp/turitors/wp-content/themes/turitor/assets/images/banner/banner_image.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 0;
+    
+}
+.banner-area h2{
+    font-size: 36px!important;
+    line-height: 44px;
+    font-weight: 700;
+    text-align: center !important;
+    margin-bottom: 0;
+}
+.main-container{
+    padding: 100px 0;
+    padding-bottom: 50px;
+    margin: 0 0 40px;
+}
+.article-blog{
+    margin-bottom: 40px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.post-body{
+    padding: 40px;
+    padding-bottom: 30px !important;
+    background:#fff;
+    border: 1px solid #eee;
+    position: relative;
+    padding-bottom: 90px;
+
+}
+.post-content-blog p{
+    height: auto !important;
+}
+.post-meta{
+    margin-bottom: 25px;
+}
+.post-author{
+    margin-right: 20px;
+    display: inline-block;
+}
+.post-icon{
+    margin-right: 7px;
+    font-size: 20px;
+}
+.acurainte{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.clock{
+    font-size: 16px;
+    display: inline-block;
+}
+.post-author p{
+    font-size: 14px;
+    color: #666;
+    font-family: sans-serifa;
+}
+.entry-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+.entry-content{
+    margin: 32px 0 0;
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #666;
+}
+.widget-search{
+    width: 100%;
+}
+.widget-search .search{
+    border-radius: 0;
+    margin: 0;
+    height: 50px;
+}
+.widget-search .search-input{
+    padding:0 25px;
+    margin-right: 0;
+    width:80% !important;
+}
+.search-input:focus-visible{
+    border-color: #0eb582;
+    box-shadow: none;
+}
+.widget-search .search-input::placeholder{
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+.widget-search .btn-search{
+    background-color: #0eb582;
+    padding: 0 20px;
+    border-color: #0eb582;
+    width: 20% !important;
+}
+.widget-search .btn-search:hover{
+    background-color: #0eb582;
+    border-color: #0eb582;
+}
+.widget-search .search-icon{
+    font-size: 18px;
+}
+.widget-card{
+    border: 0.5px solid #ddd;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.widget-title{
+    font-size: 20px;
+    position: relative;
+    margin: 0 0 30px;
+    padding: 0 0 15px;
+    /* font-family: "Roboto"; */
+    font-weight: 700;
+    color: #333;
+}
+.widget-title::before{
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: #0eb582;
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.ul-card{
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul-card li{
+    font-size: 17px;
+    font-family: 'Rubik'sans-serif;
+    display: list-item;
+    border-bottom: 1px dashed #eee;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.ul-card .black-link{
+    letter-spacing: .3px;
+    color: #666;
+    font-weight: 500;
+}
+.ul-card .black-link:hover{
+    color:#0eb582;
+}
+/* .search-icon */
+.ikkinchi-xato{
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width:768px){
+   
+  
+    
+}
